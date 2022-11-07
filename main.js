@@ -1,40 +1,54 @@
-//create object
-const user={
-    name: 'John',
-    age: 30
-};
+console.log('I want this code to be on github 2');
 
-console.log(user.name);
 
-//assign new property
-user.country='USA';
 
-console.log(user);
 
-//changing a property
-user.age=45;
-console.log(user);
 
-//destructuring
-const {age,name}=user;
 
-console.log(age);
 
-//references (bad copy)
-const user2=user;
-console.log(user2);
 
-user2.name='Peter';
 
-console.log(user2);
-console.log(user);
 
-//spread operator (good copy)
-const user3={...user};
-user3.name='Mary';
 
-console.log(user3);
-console.log(user);
+
+
+// //create object
+// const user={
+//     name: 'John',
+//     age: 30
+// };
+
+// console.log(user.name);
+
+// //assign new property
+// user.country='USA';
+
+// console.log(user);
+
+// //changing a property
+// user.age=45;
+// console.log(user);
+
+// //destructuring
+// const {age,name}=user;
+
+// console.log(age);
+
+// //references (bad copy)
+// const user2=user;
+// console.log(user2);
+
+// user2.name='Peter';
+
+// console.log(user2);
+// console.log(user);
+
+// //spread operator (good copy)
+// const user3={...user};
+// user3.name='Mary';
+
+// console.log(user3);
+// console.log(user);
 
 
 
